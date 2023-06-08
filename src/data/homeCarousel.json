@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "src": "./images/home/h1.jpg",
+    "leftText": "Shop with us",
+    "rightText": "Sale up to 70%"
+  },
+  {
+    "id": 2,
+    "src": "./images/home/h2.jpg",
+    "leftText": "",
+    "rightText": "Wide range of selections"
+  },
+  {
+    "id": 3,
+    "src": "./images/home/h3.jpg",
+    "leftText": "Discover the latest trends",
+    "rightText": ""
+  },
+  {
+    "id": 4,
+    "src": "./images/home/h4.jpg",
+    "leftText": "All kinds of accessories",
+    "rightText": "Explore the Best Deals"
+  }
+]

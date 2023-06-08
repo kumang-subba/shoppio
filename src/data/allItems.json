@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "src": "./images/products/f1.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 112
+  },
+  {
+    "id": 2,
+    "src": "./images/products/f2.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4.5,
+    "price": 56
+  },
+  {
+    "id": 3,
+    "src": "./images/products/f3.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4.5,
+    "price": 37
+  },
+  {
+    "id": 4,
+    "src": "./images/products/f4.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 3.5,
+    "price": 99
+  },
+  {
+    "id": 5,
+    "src": "./images/products/f5.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 115
+  },
+  {
+    "id": 6,
+    "src": "./images/products/f6.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4,
+    "price": 95
+  },
+  {
+    "id": 7,
+    "src": "./images/products/f7.jpg",
+    "name": "Summer Pants",
+    "brand": "Adidas",
+    "rating": 4,
+    "price": 75
+  },
+  {
+    "id": 8,
+    "src": "./images/products/f8.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 66
+  },
+  {
+    "id": 9,
+    "src": "./images/products/n1.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 112
+  },
+  {
+    "id": 10,
+    "src": "./images/products/n2.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4.5,
+    "price": 56
+  },
+  {
+    "id": 11,
+    "src": "./images/products/n3.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4.5,
+    "price": 37
+  },
+  {
+    "id": 12,
+    "src": "./images/products/n4.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 3.5,
+    "price": 99
+  },
+  {
+    "id": 13,
+    "src": "./images/products/n5.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 115
+  },
+  {
+    "id": 14,
+    "src": "./images/products/n6.jpg",
+    "name": "Summer Shorts",
+    "brand": "Adidas",
+    "rating": 4,
+    "price": 95
+  },
+  {
+    "id": 15,
+    "src": "./images/products/n7.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 4,
+    "price": 75
+  },
+  {
+    "id": 16,
+    "src": "./images/products/n8.jpg",
+    "name": "Summer Shirt",
+    "brand": "Adidas",
+    "rating": 5,
+    "price": 66
+  }
+]

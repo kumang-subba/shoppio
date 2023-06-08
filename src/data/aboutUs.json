@@ -1,0 +1,16 @@
+[
+  {
+    "src": "./images/about/f1.png",
+    "text": "Free Shipping",
+    "color": "#60d17c"
+  },
+  {
+    "src": "./images/about/f2.png",
+    "text": "Order Online",
+    "color": "#99d6e8"
+  },
+  { "src": "./images/about/f3.png", "text": "Save Money", "color": "#a099e8" },
+  { "src": "./images/about/f4.png", "text": "Promotions", "color": "#d499e8" },
+  { "src": "./images/about/f5.png", "text": "Happy Sell", "color": "#e899cb" },
+  { "src": "./images/about/f6.png", "text": "24/7 Support", "color": "#e8999c" }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "src": "./images/people/p1.jpg",
+    "title": "Senior Marketing Manager",
+    "Phone": "+032 4023291 29 AB2",
+    "name": "Sarah Connor",
+    "email": "Sarah@terminator.com"
+  },
+  {
+    "id": 2,
+    "src": "./images/people/p2.jpg",
+    "title": "Senior Marketing Manager",
+    "Phone": "+032 4FG23291 292",
+    "name": "Bill Smith",
+    "email": "Bill@smith.com"
+  },
+  {
+    "id": 3,
+    "src": "./images/people/p3.jpg",
+    "title": "Senior Marketing Manager",
+    "Phone": "+032 AB2 4023291 29 ",
+    "name": "Jack Johns",
+    "email": "Jack@johns.com"
+  }
+]
