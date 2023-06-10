@@ -8,14 +8,7 @@ const Blog = () => {
       <BlogBanner />
       <Container sx={{ marginTop: 5 }}>
         {blogPostsData.map((post, index) => (
-          <BlogPosts
-            key={index}
-            image={post.image}
-            title={post.title}
-            description={post.description}
-            date={post.date}
-            position={index}
-          />
+          <BlogPosts key={index} {...post} position={index} />
         ))}
       </Container>
     </>

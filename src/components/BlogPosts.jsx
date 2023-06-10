@@ -87,7 +87,6 @@ const BlogPosts = ({ image, title, description, position, date }) => {
       </BlogPostContent>
       {position % 2 !== 0 && (
         <BlogPostImage image={image}>
-          {" "}
           <Typography
             sx={{
               position: "absolute",

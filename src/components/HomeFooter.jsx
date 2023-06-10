@@ -19,15 +19,13 @@ const FooterColumns = styled("div")`
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
 `;
 
 const FooterColumn = styled("div")`
-  flex: 1;
   margin-right: 20px;
-
   @media (max-width: 768px) {
     margin-right: 0;
     margin-bottom: 10px;

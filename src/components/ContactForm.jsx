@@ -65,7 +65,7 @@ const ContactForm = () => {
             <Avatar
               src={person.src}
               alt={person.name}
-              sx={{ height: "80px", width: "80px" }}
+              sx={{ height: 100, width: 100 }}
             />
             <Stack>
               <Typography variant="body1" fontWeight={"bold"}>
