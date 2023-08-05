@@ -49,7 +49,7 @@ const ContactBanner = () => {
       <BannerImage>
         <LazyLoadImage
           src="./images/banners/contactBanner.jpg"
-          placeholderSrc="./placeholderImages/banners/aboutBanner.jpg"
+          placeholderSrc="./placeholderImages/banners/contactBanner.jpg"
           effect="blur"
           alt="Contact Banner"
           style={{ width: "100%" }}
