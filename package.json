@@ -24,6 +24,7 @@
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-mobile-app-button": "^1.1.13",
     "react-router-dom": "^6.11.2",
     "sort-by": "^1.2.0"

@@ -1,4 +1,5 @@
 import { styled } from "@mui/system";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BannerContainer = styled("div")`
   position: relative;
@@ -6,11 +7,10 @@ const BannerContainer = styled("div")`
   height: 300px;
 `;
 
-const BannerImage = styled("img")`
+const BannerImage = styled("div")`
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  filter: blur(3px);
+  overflow: hidden;
 `;
 
 const BannerText = styled("div")`
@@ -36,7 +36,15 @@ const BannerTextSmall = styled("div")({
 const AboutBanner = () => {
   return (
     <BannerContainer>
-      <BannerImage src="./images/banners/aboutBanner.jpg" alt="Banner Image" />
+      <BannerImage>
+        <LazyLoadImage
+          src="./images/banners/aboutBanner.jpg"
+          alt="Banner Image"
+          placeholderSrc="./placeholderImages/banners/aboutBanner.jpg"
+          style={{ width: "100%", height: "100%" }}
+          effect="blur"
+        />
+      </BannerImage>
       <BannerText>Know US</BannerText>
       <BannerTextSmall>
         Our Story: Connecting Passion with Purpose

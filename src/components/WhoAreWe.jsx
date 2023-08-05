@@ -1,7 +1,8 @@
 import { Container } from "@mui/material";
 import { styled, keyframes } from "@mui/system";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const Image = styled("img")`
+const Image = styled("div")`
   width: 50%;
   max-width: 500px;
   object-fit: cover;
@@ -59,7 +60,15 @@ const WhoAreWe = () => {
           </SliderText>
         </SliderContainer>
       </ContentContainer>
-      <Image src="./images/aboutUs.jpg" alt="Who Are We" />
+      <Image>
+        <LazyLoadImage
+          src="./images/aboutUs.jpg"
+          placeholderSrc="./placeholderImages/aboutUs.jpg"
+          alt="Who are we"
+          effect="blur"
+          style={{ width: "100%", maxWidth: "500px" }}
+        />
+      </Image>
     </Container>
   );
 };

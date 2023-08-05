@@ -1,24 +1,28 @@
 [
   {
     "image": "./images/blog/b1.jpg",
+    "placeSrc": "./placeholderImages/blog/b1.jpg",
     "title": "How to Style for Summer",
     "description": "As the sun shines bright, it's time to update your wardrobe and embrace the summer season with style.Remember, summer style is all about embracing the carefree and joyful vibes of the season. Let your outfits reflect your personality and enjoy the sun-drenched days in style.",
     "date": "05/04"
   },
   {
     "image": "./images/blog/b2.jpg",
+    "placeSrc": "./placeholderImages/blog/b2.jpg",
     "title": "Must-Have items for Spring",
     "description": "Welcome the arrival of spring with a carefully curated collection of must-have items that will elevate your style and embrace the blossoming season.",
     "date": "01/04"
   },
   {
     "image": "./images/blog/b3.jpg",
+    "placeSrc": "./placeholderImages/blog/b3.jpg",
     "title": "Inspired Trends",
     "description": "Channel Your Favorite Characters and Cultivate Your Signature Style. Discover fashion-forward looks influenced by iconic movie titles and TV shows, and unleash your inner fashionista. Embrace the creativity and individuality of title-inspired trends to make a statement and stand out from the crowd.",
     "date": "30/03"
   },
   {
     "image": "./images/blog/b4.jpg",
+    "placeSrc": "./placeholderImages/blog/b4.jpg",
     "title": "Styles",
     "description": "Unleash the Power of Words with Fashion. Explore fashion-forward looks inspired by iconic titles, featuring bold typography and expressive designs. Make a statement and let your style speak volumes with title-inspired fashion trends.",
     "date": "28/03"

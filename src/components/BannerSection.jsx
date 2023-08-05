@@ -1,4 +1,5 @@
 import { styled } from "@mui/system";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BannerSectionDiv = styled("div")`
   display: flex;
@@ -110,7 +111,16 @@ const BannerSection = () => {
         </BannerOverlay>
       </BottomBannerImage>
       <BottomBannerImage>
-        <Image src="./images/banners/b4.jpg" alt="Image 4" />
+        <div style={{ width: "100%", height: "100%", overflow: "hidden" }}>
+          <LazyLoadImage
+            src="./images/banners/b4.jpg"
+            placeholderSrc="./placeholderImages/banners/b4.jpg"
+            alt="Image 4"
+            effect="blur"
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
+
         <BannerOverlay className="banner-overlay">
           <Text sx={{ fontWeight: "bold", fontSize: "25px" }}>
             New Collections

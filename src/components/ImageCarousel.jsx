@@ -4,6 +4,7 @@ import { Fade, IconButton } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import images from "../data/homeCarousel.json";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const CarouselContainer = styled("div")`
   position: relative;
@@ -15,7 +16,7 @@ const CarouselContainer = styled("div")`
   overflow: hidden;
 `;
 
-const Image = styled("img")`
+const Image = styled("div")`
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -103,7 +104,14 @@ const ImageCarousel = () => {
           unmountOnExit
         >
           <div>
-            <Image src={image.src} alt="Carousel Image" />
+            <Image>
+              <LazyLoadImage
+                src={image.src}
+                placeholderSrc={image.placeholder}
+                effect="blur"
+                style={{ width: "100%", maxWidth: "100%" }}
+              />
+            </Image>
             <TextContainer>
               <LeftText>
                 <h2>{image.leftText}</h2>

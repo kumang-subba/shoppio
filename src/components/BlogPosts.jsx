@@ -1,5 +1,6 @@
 import { styled } from "@mui/system";
 import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BlogPostContainer = styled(Card)`
   display: flex;
@@ -50,11 +51,17 @@ const StyledLink = styled("a")`
     }
   }
 `;
-const BlogPosts = ({ image, title, description, position, date }) => {
+const BlogPosts = ({ image, placeSrc, title, description, position, date }) => {
   return (
     <BlogPostContainer>
       {position % 2 === 0 && (
-        <BlogPostImage image={image}>
+        <BlogPostImage>
+          <LazyLoadImage
+            src={image}
+            placeholderSrc={placeSrc}
+            effect="blur"
+            style={{ width: "500px", height: "100%" }}
+          />
           <Typography
             sx={{
               position: "absolute",
@@ -86,7 +93,13 @@ const BlogPosts = ({ image, title, description, position, date }) => {
         </LinkContainer>
       </BlogPostContent>
       {position % 2 !== 0 && (
-        <BlogPostImage image={image}>
+        <BlogPostImage>
+          <LazyLoadImage
+            src={image}
+            placeholderSrc={placeSrc}
+            effect="blur"
+            style={{ width: "500px", height: "100%" }}
+          />
           <Typography
             sx={{
               position: "absolute",
