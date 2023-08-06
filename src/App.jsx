@@ -11,6 +11,7 @@ import Newsletter from "./components/Newsletter";
 import HomeFooter from "./components/HomeFooter";
 import { CartProvider } from "./context/CartContext";
 import CartDrawer from "./components/CartDrawer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const theme = createTheme({
@@ -29,6 +30,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline>
         <CartProvider>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
