@@ -52,12 +52,10 @@ const BlogBanner = () => {
           alt="Banner Image"
           placeholderSrc="./placeholderImages/banners/blogBanner.jpg"
           effect="blur"
-          style={{ maxWidth: "100%" }}
+          style={{ width: "200%", height: "100%" }}
         />
       </BannerImage>
-      <BannerText>
-        Unveiling the Latest Fashion Trends and Shopping Tips
-      </BannerText>
+      <BannerText>Unveiling the Latest Fashion Trends and Shopping Tips</BannerText>
       <SmallBannerText>Read all about Shopping</SmallBannerText>
     </BannerContainer>
   );

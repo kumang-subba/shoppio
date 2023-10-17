@@ -52,7 +52,7 @@ const ContactBanner = () => {
           placeholderSrc="./placeholderImages/banners/contactBanner.jpg"
           effect="blur"
           alt="Contact Banner"
-          style={{ width: "100%" }}
+          style={{ width: "200%" }}
         />
       </BannerImage>
       <BannerText>Let&apos;s Talk</BannerText>

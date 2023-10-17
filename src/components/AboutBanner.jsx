@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BannerContainer = styled("div")`
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 300px;
 `;
 
@@ -41,14 +41,12 @@ const AboutBanner = () => {
           src="./images/banners/aboutBanner.jpg"
           alt="Banner Image"
           placeholderSrc="./placeholderImages/banners/aboutBanner.jpg"
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "200%", height: "100%" }}
           effect="blur"
         />
       </BannerImage>
       <BannerText>Know US</BannerText>
-      <BannerTextSmall>
-        Our Story: Connecting Passion with Purpose
-      </BannerTextSmall>
+      <BannerTextSmall>Our Story: Connecting Passion with Purpose</BannerTextSmall>
     </BannerContainer>
   );
 };
