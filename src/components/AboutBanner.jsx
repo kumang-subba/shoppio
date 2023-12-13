@@ -3,13 +3,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BannerContainer = styled("div")`
   position: relative;
-  width: 100vw;
-  height: 300px;
-`;
-
-const BannerImage = styled("div")`
   width: 100%;
-  height: 100%;
+  height: 300px;
   overflow: hidden;
 `;
 
@@ -36,15 +31,13 @@ const BannerTextSmall = styled("div")({
 const AboutBanner = () => {
   return (
     <BannerContainer>
-      <BannerImage>
-        <LazyLoadImage
-          src="./images/banners/aboutBanner.jpg"
-          alt="Banner Image"
-          placeholderSrc="./placeholderImages/banners/aboutBanner.jpg"
-          style={{ width: "200%", height: "100%" }}
-          effect="blur"
-        />
-      </BannerImage>
+      <LazyLoadImage
+        src="./images/banners/aboutBanner.jpg"
+        alt="Banner Image"
+        placeholderSrc="./placeholderImages/banners/aboutBanner.jpg"
+        style={{ width: "100vw" }}
+        effect="blur"
+      />
       <BannerText>Know US</BannerText>
       <BannerTextSmall>Our Story: Connecting Passion with Purpose</BannerTextSmall>
     </BannerContainer>

@@ -5,11 +5,6 @@ const BannerContainer = styled("div")`
   position: relative;
   width: 100%;
   height: 300px;
-`;
-
-const BannerImage = styled("div")`
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 `;
 
@@ -46,15 +41,13 @@ const SmallBannerText = styled("div")`
 const BlogBanner = () => {
   return (
     <BannerContainer>
-      <BannerImage>
-        <LazyLoadImage
-          src="./images/banners/blogBanner.jpg"
-          alt="Banner Image"
-          placeholderSrc="./placeholderImages/banners/blogBanner.jpg"
-          effect="blur"
-          style={{ width: "200%", height: "100%" }}
-        />
-      </BannerImage>
+      <LazyLoadImage
+        src="./images/banners/blogBanner.jpg"
+        alt="Banner Image"
+        placeholderSrc="./placeholderImages/banners/blogBanner.jpg"
+        effect="blur"
+        style={{ width: "100vw" }}
+      />
       <BannerText>Unveiling the Latest Fashion Trends and Shopping Tips</BannerText>
       <SmallBannerText>Read all about Shopping</SmallBannerText>
     </BannerContainer>

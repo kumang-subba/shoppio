@@ -5,11 +5,6 @@ const BannerContainer = styled("div")`
   position: relative;
   width: 100%;
   height: 300px;
-`;
-
-const BannerImage = styled("div")`
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 `;
 
@@ -46,15 +41,13 @@ const SmallBannerText = styled("div")`
 const ContactBanner = () => {
   return (
     <BannerContainer>
-      <BannerImage>
-        <LazyLoadImage
-          src="./images/banners/contactBanner.jpg"
-          placeholderSrc="./placeholderImages/banners/contactBanner.jpg"
-          effect="blur"
-          alt="Contact Banner"
-          style={{ width: "200%" }}
-        />
-      </BannerImage>
+      <LazyLoadImage
+        src="./images/banners/contactBanner.jpg"
+        placeholderSrc="./placeholderImages/banners/contactBanner.jpg"
+        effect="blur"
+        alt="Contact Banner"
+        style={{ width: "100vw" }}
+      />
       <BannerText>Let&apos;s Talk</BannerText>
       <SmallBannerText>LEAVE US A MESSAGE</SmallBannerText>
     </BannerContainer>
